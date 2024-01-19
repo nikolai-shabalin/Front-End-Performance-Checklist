@@ -253,7 +253,7 @@
 
 **[⬆ back to top](#css)**
 
-## Fonts
+## Шрифты
 
 ![fonts]
 
@@ -301,94 +301,94 @@
  * 📖 [`font-display` для масс ](https://css-tricks.com/font-display-masses/)
  * 📖 [CSS font-display: Будущее рендеринга шрифтов в Интернете](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-**[⬆ back to top](#fonts)**
+**[⬆ back to top](#шрифты)**
 
-## Images
+## Изображения
 
 ![images]
 
  * 📖 [Image Bytes in 2018](https://httparchive.org/reports/page-weight#bytesImg)
 
-* [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
+* [ ] **Оптимизация изображений:** ![high] Ваши изображения оптимизированы, сжаты без прямого воздействия на конечного пользователя.
 
     *Почему:*
-    > Optimized images load faster in your browser and consume less data.
+    > Оптимизированные изображения быстрее загружаются в браузере и потребляют меньше данных.
 
     *Как:*
-    > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
-    ⁃ When it's possible, use fonts instead of text encoded in your images <br>
-    ⁃ Use SVG <br>
-    ⁃ Use a tool and specify a level compression under 85.
+    > ⁃ Попробуйте использовать эффекты CSS3, когда это возможно (вместо маленького изображения). <br>
+    ⁃ Если это возможно, используйте шрифты вместо текста, закодированного в изображениях. <br>
+    ⁃ Используйте SVG <br>
+    ⁃ Используйте инструмент и задайте уровень сжатия ниже 85.
 
     * 📖 [Image Optimization | Web Fundamentals | Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/image-optimization)
-    * 📖 [Essential Image Optimization - An eBook by Addy Osmani](https://images.guide/)
-    * 🛠 [TinyJPG – Compress JPEG images intelligently](https://tinyjpg.com/)
-    * 🛠 [Kraken.io - Online Image Optimizer](https://kraken.io/web-interface)
-    * 🛠 [Compressor.io - optimize and compress JPEG photos and PNG images](https://compressor.io/compress)
-    * 🛠 [Cloudinary - Image Analysis Tool](https://webspeedtest.cloudinary.com)
-    * 🛠 [ImageEngine - Image Webpage Loading Test](https://demo.imgeng.in)
-    * 🛠 [SVGOMG - Optimize SVG vector graphics files](https://jakearchibald.github.io/svgomg/)
+    * 📖 [Важнейшая оптимизация изображений - An eBook by Addy Osmani](https://images.guide/)
+    * 🛠 [TinyJPG – Интеллектуальное сжатие изображений JPEG](https://tinyjpg.com/)
+    * 🛠 [Kraken.io - Онлайн-оптимизатор изображений](https://kraken.io/web-interface)
+    * 🛠 [Compressor.io - оптимизация и сжатие фотографий JPEG и изображений PNG](https://compressor.io/compress)
+    * 🛠 [Cloudinary - Инструмент для анализа изображений](https://webspeedtest.cloudinary.com)
+    * 🛠 [ImageEngine - Тест загрузки веб-страниц с изображениями](https://demo.imgeng.in)
+    * 🛠 [SVGOMG - Оптимизация файлов векторной графики SVG](https://jakearchibald.github.io/svgomg/)
 
 
-* [ ] **Images format:** ![high] Choose your image format appropriately.
+* [ ] **Формат изображений:** ![high] Выберите подходящий формат изображения.
 
     *Почему:*
-    > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
+    > Чтобы изображения не тормозили работу сайта, выберите формат, который будет соответствовать вашему изображению. Если это фотография, то JPEG чаще всего подходит больше, чем PNG или GIF. Но не забудьте обратить внимание на некст-ген форматы, которые могут уменьшить размер файлов. У каждого формата изображений есть плюсы и минусы, и важно знать их, чтобы сделать наилучший выбор.
 
     *Как:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
-    ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
+    > ⁃ Используйте [Lighthouse](https://developers.google.com/web/tools/lighthouse/) чтобы определить, какие изображения могут использовать **форматы следующего поколения** (например, JPEG 2000m JPEG XR или WebP). <br>
+    ⁃ Сравните разные форматы, иногда использование PNG8 лучше PNG16, иногда нет.
 
-    * 📖 [Serve Images in Next-Gen Formats  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
-    * 📖 [What Is the Right Image Format for Your Website? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
-    * 📖 [PNG8 - The Clear Winner — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
-    * 📖 [8-bit vs 16-bit - What Color Depth You Should Use And Why It Matters - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
+    * 📖 [Подача изображений в форматах нового поколения  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/lighthouse/audits/webp)
+    * 📖 [Какой формат изображений подходит для вашего сайта? — SitePoint](https://www.sitepoint.com/what-is-the-right-image-format-for-your-website/)
+    * 📖 [PNG8 - Явный победитель — SitePoint](https://www.sitepoint.com/png8-the-clear-winner/)
+    * 📖 [8-bit vs 16-bit - Какую глубину цвета следует использовать и почему это важно - DIY Photography](https://www.diyphotography.net/8-bit-vs-16-bit-color-depth-use-matters/)
 
-- [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
-
-    *Почему:*
-    > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
-
-* [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
+- [ ] **Использование векторных изображений по сравнению с растровыми/битовыми:** ![medium] Предпочтительнее использовать векторные, а не растровые изображения (когда это возможно).
 
     *Почему:*
-    > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
+    > Векторные изображения (SVG) обычно меньше, чем картинки, и SVG отлично реагируют на изменения и масштабируются. Эти изображения можно анимировать и изменять с помощью CSS.
 
-* [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
-
-    * 📖 [Base64 Encoding & Performance, Part 1 and 2 by Harry Roberts](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
-    * 📖 [A closer look at Base64 image performance – The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
-    * 📖 [When to base64 encode images (and when not to) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
-   * 📖 [Base64 encoding images for faster pages | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
-
-* [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
+* [ ] **Размеры изображений:** ![medium] Установите атрибуты `width` и `height` для `<img>`, если известен конечный размер отрисованного изображения.
 
     *Почему:*
-    > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
+    > Если заданы height и width, то при загрузке страницы для изображения резервируется необходимое пространство. Однако без этих атрибутов браузер не знает размера изображения и не может зарезервировать для него соответствующее пространство. В результате макет страницы будет меняться во время загрузки (пока загружаются изображения).
+
+* [ ] **Избегайте использования изображений в формате Base64:** ![medium] В конце концов, вы можете преобразовать крошечные изображения в base64, но это не лучший вариант.
+
+    * 📖 [Кодирование Base64 и производительность, часть 1 и 2 Гарри Робертс](https://csswizardry.com/2017/02/base64-encoding-and-performance/)
+    * 📖 [Более подробный взгляд на производительность изображений Base64– The Page Not Found Blog](http://www.andygup.net/a-closer-look-at-base64-image-performance/)
+    * 📖 [Когда следует кодировать изображения в base64 (и когда не следует) | David Calhoun](https://www.davidbcalhoun.com/2011/when-to-base64-encode-images-and-when-not-to/)
+   * 📖 [Base64-кодирование изображений для ускорения работы страниц | Performance and seo factors](https://varvy.com/pagespeed/base64-images.html)
+
+* [ ] **Ленивая загрузка:** ![medium] Внеэкранные изображения загружаются лениво (всегда обеспечивается откат носкрипта).
+
+    *Почему:*
+    > Это позволит увеличить время отклика текущей страницы и избежать загрузки ненужных изображений, которые могут не понадобиться пользователю.
 
     *Как:*
-    > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
-    ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
-    ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
+    > ⁃ Используйте [Маяк](https://developers.google.com/web/tools/lighthouse/), чтобы определить, сколько **изображений находится за пределами экрана**. <br>
+    ⁃ Для ленивой загрузки изображений используйте плагин JavaScript, например, следующий. Убедитесь, что вы нацелены только на изображения за пределами экрана. <br>
+    ⁃ Также убедитесь, что альтернативные изображения, отображаемые при наведении курсора мыши или других действиях пользователя, загружаются в ленивом режиме.
 
     * 🛠 [verlok/lazyload: GitHub](https://github.com/verlok/lazyload)
     * 🛠 [aFarkas/lazysizes: GitHub](https://github.com/aFarkas/lazysizes/)
     * 🛠 [mfranzke/loading-attribute-polyfill: GitHub](https://github.com/mfranzke/loading-attribute-polyfill/)
-    * 📖 [Lazy Loading Images and Video  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
-    * 📖 [5 Brilliant Ways to Lazy Load Images For Faster Page Loads - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
+    * 📖 [Ленивая загрузка изображений и видео  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/lazy-loading-guidance/images-and-video/)
+    * 📖 [5 блестящих способов ленивой загрузки изображений для ускорения загрузки страниц - Dynamic Drive Blog](http://blog.dynamicdrive.com/5-brilliant-ways-to-lazy-load-images-for-faster-page-loads/)
 
-* [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
+* [ ] **Отзывчивые изображения:** ![medium] Убедитесь, что изображения близки к размеру вашего дисплея.
 
     *Почему:*
-    > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
+    > Маленьким устройствам не нужны изображения, превышающие их область просмотра. Рекомендуется иметь несколько версий одного изображения для разных размеров.
 
     *Как:*
-    > ⁃ Create different image sizes for the devices you want to target. <br>
-    ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
+    > ⁃ Создайте изображения разных размеров для устройств, на которые вы хотите ориентироваться. <br>
+    ⁃ Используйте `srcset` и `picture` для доставки нескольких вариантов каждого изображения.
 
-     * 📖 [Responsive images - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+     * 📖 [Отзывчивое изображениеs - Learn web development | MDN](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#изображения)**
 
 ## JavaScript
 
