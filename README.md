@@ -488,86 +488,86 @@
 
 ![server-side]
 
-- [ ] **Your website is using HTTPS:** ![high]
+- [ ] **Ваш сайт использует HTTPS:**. ![high]
 
     *Почему:*
-    > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
+    > HTTPS нужен не только для сайтов электронной коммерции, но и для всех сайтов, которые обмениваются данными. Данными, которыми обменивается пользователь, или данными, передаваемыми внешним организациям. Современные браузеры ограничивают функциональность сайтов, которые не защищены. Например, геолокация, push-уведомления и рабочие службы не работают, если ваш инстанс не использует HTTPS. И сегодня гораздо проще настроить проект с SSL-сертификатом, чем раньше (и бесплатно, благодаря [Let's Encrypt](https://letsencrypt.org/)).
 
- * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
- * 📖 [Enabling HTTPS Without Sacrificing Your Web Performance - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
- * 📖 [How HTTPS Affects Website Performance](https://wp-rocket.me/blog/https-affects-website-performance/)
- * 📖 [HTTP versus HTTPS versus HTTP2 - The real story | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
- * 📖 [HTTP vs HTTPS — Test them both yourself](https://www.httpvshttps.com/)
+ * 📖 [Зачем использовать HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
+ * 📖 [Включение HTTPS без ущерба для производительности сайта - Moz](https://moz.com/blog/enabling-https-without-sacrificing-web-performance)
+ * 📖 [Как HTTPS влияет на производительность сайта](https://wp-rocket.me/blog/https-affects-website-performance/)
+ * 📖 [HTTP против HTTPS против HTTP2 - Реальная история | Tune The Web](https://www.tunetheweb.com/blog/http-versus-https-versus-http2/)
+ * 📖 [HTTP vs HTTPS — Проверьте их сами](https://www.httpvshttps.com/)
 
-- [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
+- [ ] **Вес страницы < 1500 КБ (в идеале < 500 КБ):** ![high] Уменьшите размер страницы + ресурсов настолько, насколько это возможно..
 
     *Почему:*
-    > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
+    > В идеале вы должны стремиться к размеру < 500 КБ, но состояние интернета показывает, что медиана килобайтов составляет около 1500 КБ (даже на мобильных устройствах). В зависимости от целевых пользователей, сетевого подключения, устройств, важно максимально сократить общее количество килобайт, чтобы обеспечить наилучший пользовательский опыт.
 
     *Как:*
-    > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
+    > ⁃ Все правила, содержащиеся в Front-End Performance Checklist, помогут вам максимально сократить количество ресурсов и кода.
 
-    * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
-    * 🛠 [What Does My Site Cost?](https://whatdoesmysitecost.com/)
-    * 🛠 [web - Measure full page size in Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
+    * 📖 [Вес страницы](https://httparchive.org/reports/page-weight#bytesTotal)
+    * 🛠 [Сколько стоит мой сайт?](https://whatdoesmysitecost.com/)
+    * 🛠 [web - Измерение размера полной страницы в Chrome DevTools - Stack Overflow](https://stackoverflow.com/questions/38239980/measure-full-page-size-in-chrome-devtools)
 
-- [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
-
-    *Почему:*
-    > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
-
-    *Как:*
-    > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
-
-    * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
-    * 🛠 [Test Your Mobile Website Speed and Performance - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
-    * 📖 [Average Page Load Times for 2018 - How does yours compare? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
-
-- [ ] **Time To First Byte < 1.3 seconds:** ![high] Reduce as much as you can the time your browser waits before receiving data.
-
-    * 📖 [What is Waiting (TTFB) in DevTools, and what to do about it](https://scaleyourcode.com/blog/article/27)
-    * 📖 [Monitoring your servers with free tools is easy](https://scaleyourcode.com/blog/article/7)
-    * 📖 [Time to First Byte (TTFB)](https://varvy.com/pagespeed/ttfb.html)
-    * 🛠 [Global latency testing tool](https://latency.apex.sh)
-
-* [ ] **Cookie size:** ![medium] If you are using cookies, be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
+- [ ] **Время загрузки страницы < 3 секунд:** ![high] Максимально сократите время загрузки страницы, чтобы быстро донести содержимое до пользователей.
 
     *Почему:*
-    > Cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
+    > Быстрее работает ваш сайт или приложение, меньше вероятность отказов, другими словами, у вас меньше шансов потерять пользователя или будущего клиента. Достаточно много исследований на эту тему подтверждают этот факт.
 
     *Как:*
-    > Eliminate unnecessary cookies.
+    > Используйте такие онлайн-инструменты, как [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) или [WebPageTest](https://www.webpagetest.org/), чтобы проанализировать, что может замедлять работу сайта, и воспользуйтесь контрольным списком производительности фронтальной части сайта, чтобы улучшить время загрузки.
+
+    * 🛠 [Сравните скорость работы вашего мобильного сайта](https://www.thinkwithgoogle.com/feature/mobile/)
+    * 🛠 [Проверьте скорость и производительность вашего мобильного сайта - Think With Google](https://testmysite.thinkwithgoogle.com/intl/en-us)
+    * 📖 [Среднее время загрузки страниц в 2018 году - как обстоят дела у вас? - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/average-page-load-times-websites-2018/)
+
+- [ ] **Time To First Byte < 1,3 секунды:** ![high] Сократите, насколько это возможно, время ожидания браузера перед получением данных.
+
+    * 📖 [Что такое ожидание (TTFB) в DevTools и что с ним делать](https://scaleyourcode.com/blog/article/27)
+    * 📖 [Мониторинг серверов с помощью бесплатных инструментов - это просто](https://scaleyourcode.com/blog/article/7)
+    * 📖 [Время до первого байта (TTFB)](https://varvy.com/pagespeed/ttfb.html)
+    * 🛠 [Инструмент для тестирования глобальной латентности](https://latency.apex.sh)
+
+* [ ] **Размер куки:** ![medium] Если вы используете куки, убедитесь, что размер каждого куки не превышает 4096 байт, а в вашем доменном имени не более 20 куки.
+
+    *Почему:*
+    > Cookies обмениваются в HTTP-заголовках между веб-серверами и браузерами. Важно, чтобы размер файлов cookie был как можно меньше, чтобы минимизировать влияние на время отклика пользователя.
+
+    *Как:*
+    > Исключите ненужные файлы cookie.
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
     * 📖 [Cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies)
-    * 🛠 [Browser Cookie Limits](http://browsercookielimits.squawky.net/)
+    * 🛠 [Ограничения на использование файлов cookie в браузере](http://browsercookielimits.squawky.net/)
     * 📖 [Website Performance: Cookies Don't Taste So Good - Monitis Blog](http://www.monitis.com/blog/website-performance-cookies-dont-taste-so-good/)
-    * 📖 [Google's Web Performance Best Practices #3: Minimize Request Overhead - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
+    * 📖 [Лучшие практики Google в области веб-производительности #3: минимизируйте перегрузку запросов - GlobalDots Blog](https://www.globaldots.com/googles-web-performance-best-practices-3-minimize-request-overhead/)
 
-- [ ] **Minimizing HTTP requests:** ![high] Always ensure that every file requested are essential for your website or application.
- * 📖 [Combine external CSS](https://varvy.com/pagespeed/combine-external-css.html)
- * 📖 [Combine external JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
+- [ ] **Минимизация HTTP-запросов:** ![high] Всегда убеждайтесь, что каждый запрашиваемый файл необходим для вашего сайта или приложения.
+ * 📖 [Комбинируйте внешние CSS](https://varvy.com/pagespeed/combine-external-css.html)
+ * 📖 [Объедините внешний JavaScript](https://varvy.com/pagespeed/combine-external-javascript.html)
 
-- [ ] **Use a CDN to deliver your assets:** ![medium] Use a CDN to deliver faster your content over the world.
+- [ ] **Используйте CDN для доставки ваших ресурсов:** ![medium] Используйте CDN для более быстрой доставки вашего контента по всему миру.
 
- * 📖 [10 Tips to Optimize CDN Performance - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
- * 📖 [HTTP Caching  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
+ * 📖 [10 советов по оптимизации производительности CDN - CDN Planet](https://www.cdnplanet.com/blog/10-tips-optimize-cdn-performance/)
+ * 📖 [HTTP Кэширование  |  Web Fundamentals  |  Google Developers](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
 
-- [ ] **Serve files from the same protocol:** ![high] Avoid having your website serving files coming from source using HTTP on your website which is using HTTPS for example. If your website is using HTTPS, external files should come from the same protocol.
+- [ ] **Предоставляйте файлы по одному и тому же протоколу:** ![high] Избегайте того, чтобы ваш сайт обслуживал файлы, поступающие из источника, использующего HTTP, на вашем сайте, который, например, использует HTTPS. Если ваш сайт использует HTTPS, внешние файлы должны быть из того же протокола.
 
-- [ ] **Serve reachable files:** ![high] Avoid requesting unreachable files (404).
- * 📖 [How to avoid bad requests](https://varvy.com/pagespeed/avoid-bad-requests.html)
+- [ ] **Сохраняйте достижимые файлы:** ![high] Избегайте запросов недоступных файлов (404).
+ * 📖 [Как избежать плохих запросов](https://varvy.com/pagespeed/avoid-bad-requests.html)
 
-- [ ] **Set HTTP cache headers properly:** ![high] Set HTTP headers to avoid expensive number of roundtrips between your browser and the server.
- * 📖 [Using cache-control for browser caching](https://varvy.com/pagespeed/cache-control.html)
+- [ ] **Установите правильные заголовки HTTP-кэша:** ![high] Установите HTTP-заголовки, чтобы избежать дорогостоящих обходов между вашим браузером и сервером.
+ * 📖 [Использование cache-control для кэширования в браузере](https://varvy.com/pagespeed/cache-control.html)
 
-- [ ] **GZIP / Brotli compression is enabled:** ![high] Use a compression method such as Gzip or Brotli to reduce the size of your JavaScript files. With a smaller sizes file, users will be able to download the asset faster, resulting in improved performance.
+- [ ] **Сжатие GZIP / Brotli включено:** ![high] Используйте метод сжатия, такой как Gzip или Brotli, чтобы уменьшить размер ваших JavaScript-файлов. При меньшем размере файла пользователи смогут быстрее загрузить актив, что приведет к повышению производительности.
 
- * 🛠 [Check GZIP compression](https://checkgzipcompression.com/)
- * 🛠 [Check Brotli Compression](https://tools.keycdn.com/brotli-test)
+ * 🛠 [Проверьте сжатие GZIP](https://checkgzipcompression.com/)
+ * 🛠 [Проверьте компрессию Brotli](https://tools.keycdn.com/brotli-test)
  * 📖 [Can I use... Brotli](https://caniuse.com/#feat=brotli)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#сервер)**
 
 ---
 ## Performances and JS Frameworks
