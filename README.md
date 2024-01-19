@@ -259,50 +259,49 @@
 
 * 📖 [A Book Apart, Webfont Handbook](https://abookapart.com/products/webfont-handbook)
 
-- [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
+- [ ] **Форматы веб-шрифтов:** ![medium] Вы используете WOFF2 в своем веб-проекте или приложении.
 
     *Почему:*
-    > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
+    > По данным Google, формат сжатия веб-шрифтов WOFF 2.0 в среднем на 30 % превосходит WOFF 1.0. Поэтому целесообразно использовать WOFF 2.0, WOFF 1.0 в качестве запасного варианта и TTF.
 
     *Как:*
-    > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
+    > Перед покупкой нового шрифта убедитесь, что поставщик предоставляет вам формат WOFF2. Если вы используете бесплатный шрифт, вы всегда можете использовать Font Squirrel для создания всех необходимых форматов.
 
-    * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
-    * 🛠 [Create Your Own @font-face Kits » Font Squirrel](https://www.fontsquirrel.com/tools/webfont-generator)
+    * 📖 [WOFF 2.0 – Узнайте больше о новом поколении формата веб-шрифтов и конвертируйте TTF в WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a) 
     * 🛠 [IcoMoon App - Icon Font, SVG, PDF & PNG Generator](https://icomoon.io/app/)
     * 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/?ref=frontendchecklist)
     * 📖 [Can I use... WOFF2](https://caniuse.com/#feat=woff2)
 
-- [ ] **Use `preconnect` to load your fonts faster:** ![medium]
+- [ ] **Используйте `preconnect` для более быстрой загрузки шрифтов:** ![medium]
 
     ```html
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
     *Почему:*
-    > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
+    > Когда вы зашли на веб-сайт, вашему устройству необходимо выяснить, где находится сайт и с каким сервером ему нужно соединиться. Ваш браузер должен был связаться с DNS-сервером и дождаться завершения поиска, прежде чем получить ресурс (шрифты, CSS-файлы...). Префетчи и преконнекты позволяют браузеру просмотреть информацию DNS и начать устанавливать TCP-соединение с сервером, на котором находится файл шрифта. Это повышает производительность, поскольку к тому времени, когда браузер разберет css-файл с информацией о шрифте и обнаружит, что ему нужно запросить файл шрифта у сервера, он уже предварительно разрешит DNS-информацию и будет иметь открытое соединение с сервером в своем пуле соединений.
 
     *Как:*
-    > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
-    ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
-    ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
+    > ⁃ Перед предварительной выборкой веб-шрифтов используйте webpagetest для оценки вашего сайта <br>
+    ⁃ Найдите DNS-поиск, окрашенный в тиловый цвет, и обратите внимание на хост, который запрашивается <br>
+    ⁃ Предварительная выборка веб-шрифтов в вашем `<head>` и добавьте в конце концов эти имена хостов, которые вы тоже должны предварительно выбрать
 
-    * 📖 [Faster Google Fonts with Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
-    * 📖 [Make Your Site Faster with Preconnect Hints | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
-    * 📖 [Ultimate Guide to Browser Hints: Preload, Prefetch, and Preconnect - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
-    * 📖 [A Comprehensive Guide to Font Loading Strategies—zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
-    * 🛠 [typekit/webfontloader: Web Font Loader gives you added control when using linked fonts via @font-face.](https://github.com/typekit/webfontloader)
+    * 📖 [Более быстрые шрифты Google с помощью Preconnect - CDN Planet](https://www.cdnplanet.com/blog/faster-google-webfonts-preconnect/)
+    * 📖 [Сделайте свой сайт быстрее с помощью подсказок Preconnect | Viget](https://www.viget.com/articles/make-your-site-faster-with-preconnect-hints/)
+    * 📖 [Полное руководство по подсказкам браузера: Предварительная загрузка, предварительная выборка и предварительное подключение - MachMetrics Speed Blog](https://www.machmetrics.com/speed-blog/guide-to-browser-hints-preload-preconnect-prefetch/)
+    * 📖 [Исчерпывающее руководство по стратегиям загрузки шрифтов — zachleat.com](https://www.zachleat.com/web/comprehensive-webfonts/#font-face)
+    * 🛠 [typekit/webfontloader: Web Font Loader обеспечивает дополнительный контроль при использовании связанных шрифтов через @font-face.](https://github.com/typekit/webfontloader)
 
-- [ ] **Webfont size:** ![medium] Webfont sizes don't exceed 300kb (all variants included)
+- [ ] **Размер веб-шрифта:** ![medium] Размер веб-шрифта не должен превышать 300 кб (все варианты включены)
 
- * 📖 [Font Bytes - Page Weight](https://httparchive.org/reports/page-weight#bytesFont)
+ * 📖 [Байт шрифта - Вес страницы](https://httparchive.org/reports/page-weight#bytesFont)
 
-- [ ] **Prevent Flash or Invisible Text:** ![medium] Avoid transparent text until the Webfont is loaded
+- [ ] **Предотвращение флэш- или невидимого текста:** ![medium] Избегайте прозрачного текста, пока не загрузится веб-шрифт
 
- * 📖 [`font-display` for the Masses](https://css-tricks.com/font-display-masses/)
- * 📖 [CSS font-display: The Future of Font Rendering on the Web](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
+ * 📖 [`font-display` для масс ](https://css-tricks.com/font-display-masses/)
+ * 📖 [CSS font-display: Будущее рендеринга шрифтов в Интернете](https://www.sitepoint.com/css-font-display-future-font-rendering-web/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#fonts)**
 
 ## Images
 
