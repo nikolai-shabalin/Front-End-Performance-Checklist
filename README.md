@@ -9,27 +9,15 @@
 
 ---
 
-<h3 align="center">🚨 Currently working on new version of frontendchecklist.io <br>(that will include the current performance).<br>Feel free to <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions/513">discuss</a> any feature you would like to see. Thanks for your support!</h3>
+<h3 align="center">🚨 В настоящее время мы работаем над новой версией frontendchecklist.io <br>(которая будет включать в себя текущую производительность).<br>Не стесняйтесь <a href="https://github.com/thedaviddias/Front-End-Checklist/discussions/513">обсуждать</a> любые функции, которые вы хотели бы видеть. Спасибо за поддержку! </h3>
 
 ---
 
-<h4 align="center">🎮 The only Front-End Performance Checklist that runs faster than the others.</h4>
-<p align="center">One simple rule: "Design and code with performance in mind"</p>
+<h4 align="center">🎮 Единственный контрольный список производительности фронтальной части, который работает быстрее остальных.</h4>
+<p align="center">Одно простое правило: "Проектируйте и кодируйте с учетом производительности".</p>
 
 <p align="center">
-  <a href="http://makeapullrequest.com">
-    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome">
-  </a>
-  <a href="https://discord.gg/btHQRkm">
-    <img src="https://img.shields.io/badge/chat-on_discord-4837E2.svg?style=flat-square" alt="Discord">
-  </a>
-    <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square" alt="Licence MIT">
-  </a>
-</p>
-
-<p align="center">
-  <a href="#how-to-use">How To Use</a> • <a href="#contributing">Contributing</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Product Hunt</a>
+  <a href="#как-использовать">Как использовать</a> • <a href="#contributing">Вклад</a> • <a href="https://www.producthunt.com/posts/front-end-performance-checklist">Охота за продуктами</a>
 </p>
 
 <p align="center">
@@ -42,68 +30,62 @@
   <a href="https://github.com/ms-fadaei/Front-End-Performance-Checklist">🇮🇷</a>
 </p>
 
-<p align="center">
-    <span>Other Checklists:</span>
-    <br>
-  🗂 <a href="https://github.com/thedaviddias/Front-End-Checklist#---------front-end-checklist-">Front-End Checklist</a> • 💎 <a href="https://github.com/thedaviddias/Front-End-Design-Checklist#front-end-design-checklist">Front-End Design Checklist</a>
-</p>
+## Введение
 
-## Introduction
+Производительность - это огромная тема, но она не всегда относится к "бэкенду" или "админке": это также и ответственность Front-End-разработчика. Контрольный список производительности Front-End - это исчерпывающий список элементов, которые вы должны проверить или хотя бы знать о них, как Front-End-разработчик, и применить в своем проекте (личном и профессиональном).
 
-Performance is a huge subject, but it's not always a "back-end" or an "admin" subject: it's a Front-End responsibility too. The Front-End Performance Checklist is an exhaustive list of elements you should check or at least be aware of, as a Front-End developer and apply to your project (personal and professional).
+### Как использовать?
 
-### How to use?
+Каждое правило будет содержать абзац, объясняющий, почему это правило важно и как его можно исправить. Для более глубокой информации вы должны найти ссылки, которые укажут на 🛠 инструменты, 📖 статьи или 📹 видео, которые могут дополнить контрольный список.
 
-For each rule, you will have a paragraph explaining *why* this rule is important and *how* you can fix it. For more deep information, you should find links that will point to 🛠 tools, 📖 articles or 📹 medias that can complete the checklist.
+Все пункты **Конечного контрольного списка производительности** важны для достижения наивысшей оценки производительности, но вам нужен индикатор, который поможет вам в конечном итоге определить приоритетность одних правил по отношению к другим. Существует 3 уровня приоритетности:
 
-All items in the **Front-End Performance Checklist** are essentials to achieve the highest performance score but you would find an indicator to help you to eventually prioritised some rules amount others. There are 3 levels of priority:
+* ![Низкий][low] означает, что элемент имеет **низкий** приоритет.
+* ![Средний][medium] означает, что этот пункт имеет **средний** приоритет. Вам не следует избегать выполнения этого пункта.
+* ![Высокий][high] означает, что этот пункт имеет **высокий** приоритет. Вы не можете не следовать этому правилу и не вносить рекомендованные исправления.
 
-* ![Low][low] means that the item has a **low** priority.
-* ![Medium][medium] means that the item has a **medium** priority. You shouldn't avoid tackling that item.
-* ![High][high] means that the item has a **high** priority. You can't avoid following that rule and implement the corrections recommended.
+### Инструменты производительности
 
-### Performance tools
+Список инструментов, которые вы можете использовать для тестирования или мониторинга вашего сайта или приложения:
 
-List of the tools you can use to test or monitor your website or application:
-
- * 🛠 [WebPagetest - Website Performance and Optimization Test](https://www.webpagetest.org/)
- * 🛠 ☆ [Dareboost: Website Speed Test and Website Analysis](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
- * 🛠 [Treo: Page Speed Monitoring](https://treo.sh/?ref=perfchecklist)
- * 🛠 [GTmetrix | Website Speed and Performance Optimization](https://gtmetrix.com/)
+ * 🛠 [WebPagetest - Тест на производительность и оптимизацию сайта](https://www.webpagetest.org/)
+ * 🛠 ☆ [Dareboost: Тест скорости сайта и анализ сайта](https://www.dareboost.com/) (use the coupon WPCDD20 for -20%)
+ * 🛠 [Treo: Мониторинг скорости страницы](https://treo.sh/?ref=perfchecklist)
+ * 🛠 [GTmetrix | Оптимизация скорости и производительности сайтаn](https://gtmetrix.com/)
  * 🛠 [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
  * 🛠 [Web.dev](https://web.dev/measure)
- * 🛠 [Pingdom Website Speed Test](https://tools.pingdom.com)
- * 📖 [Make the Web Faster | Google Developers](https://developers.google.com/speed/)
- * 🛠 [Sitespeed.io - Welcome to the wonderful world of Web Performance](https://www.sitespeed.io/)
+ * 🛠 [Pingdom Тест скорости веб-сайта](https://tools.pingdom.com)
+ * 📖 [Сделайте веб быстрее | Google Developers](https://developers.google.com/speed/)
+ * 🛠 [Sitespeed.io - Добро пожаловать в удивительный мир Web Performance](https://www.sitespeed.io/)
  * 🛠 [Calibre](https://calibreapp.com/)
- * 🛠 [Website Speed Test | Check Web Performance &raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
- * 🛠 [Website and Server Uptime Monitoring - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
- * 🛠 [Uptime Robot](https://uptimerobot.com)
- * 🛠 [SpeedCurve: Monitor front-end performance](https://speedcurve.com)
- * 🛠 [PWMetrics - CLI tool and lib to gather performance metrics](https://github.com/paulirish/pwmetrics)
- * 🛠 [Varvy - Page speed optimization]( https://varvy.com/pagespeed/)
+ * 🛠 [Website Speed Test | Проверка производительности веб-сайта&raquo; Dotcom-Tools](https://www.dotcom-tools.com/website-speed-test.aspx)
+ * 🛠 [Мониторинг работоспособности веб-сайтов и серверов - Pingdom](https://www.pingdom.com/product/uptime-monitoring/) ([Free Signup Link](https://www.pingdom.com/free))
+ * 🛠 [Робот для проверки работоспособности](https://uptimerobot.com)
+ * 🛠 [SpeedCurve: Мониторинг производительности фронтальной части](https://speedcurve.com)
+ * 🛠 [PWMetrics - Инструмент CLI и lib для сбора показателей производительности](https://github.com/paulirish/pwmetrics)
+ * 🛠 [Varvy - Оптимизация скорости страницы]( https://varvy.com/pagespeed/)
  * 🛠 [Lighthouse - Google]( https://developers.google.com/web/tools/lighthouse/#devtools)
- * 🛠 [Checkbot browser extension - Checks for web performance best practices](https://www.checkbot.io/)
- * 🛠 [Yellow Lab Tools | Online test to help speeding up heavy web pages](https://yellowlab.tools/)
- * 🛠 [Speedrank - Web Performance Monitoring](https://speedrank.app/)
- * 🛠 [DebugBear - Monitor website performance and Lighthouse scores](https://www.debugbear.com/)
- * 🛠 [packtracker.io - Check your webpack bundle size on every pull request.](https://packtracker.io/)
- * 🛠 [Exthouse - Analyze the impact of a browser extension on web performance](https://github.com/treosh/exthouse)
- * 🛠 [LogRocket - Measure front-end performance in production apps](https://logrocket.com)
+ * 🛠 [Checkbot расширение браузера - Проверяет наилучшие практики производительности веб-сайтов](https://www.checkbot.io/)
+ * 🛠 [Yellow Lab Tools | Онлайн-тест для ускорения работы тяжелых веб-страниц](https://yellowlab.tools/)
+ * 🛠 [Speedrank - Мониторинг производительности веб-сайтов](https://speedrank.app/)
+ * 🛠 [DebugBear - Мониторинг производительности сайта и показателей Lighthouse](https://www.debugbear.com/)
+ * 🛠 [packtracker.io - Проверяйте размер пакета webpack при каждом запросе на выгрузку.](https://packtracker.io/)
+ * 🛠 [Exthouse - Анализ влияния расширения браузера на производительность веб-сайта](https://github.com/treosh/exthouse)
+ * 🛠 [LogRocket - Измерьте производительность фронтэнда в производственных приложениях](https://logrocket.com)
 
-### References
+### Ссылки
 
- * 📹 [The Cost Of JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
- * [AddyOsmani.com - Start Performance Budgeting](https://addyosmani.com/blog/performance-budgets/)
- * 📖 [Get Started With Analyzing Runtime Performance  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
- * 📖 [State of the Web | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
- * 📖 [Page Weight Doesn't Matter](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
- * 📖 [Front-End Performance Checklist 2021 [PDF, Apple Pages, MS Word]](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
- * 📖 [Designing for Performance Weighing Aesthetics and Speed - By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
- * 📖 [Varvy - Web performance glossary](https://varvy.com/performance/)
- * 📖 [fabkrum/web-performance-resources: Up to date collection of valuable web performance resources](https://github.com/fabkrum/web-performance-resources)
- * 📖 [Checkbot - Web Speed Best Practices](https://www.checkbot.io/guide/speed/)
- * 🛠 [Progressive Tooling - A list of community-built, third-party tools that can be used to improve page performance](https://progressivetooling.com/)
+ * 📹 [Стоимость JavaScript - YouTube](https://www.youtube.com/watch?v=_bzqF05xsC4) ([text version](https://medium.com/@addyosmani/the-cost-of-javascript-in-2018-7d8950fbb5d4))
+ * [AddyOsmani.com - Начните составлять бюджет производительности](https://addyosmani.com/blog/performance-budgets/)
+ * 📖 [Начните анализировать производительность во время выполнения  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/)
+ * 📖 [Состояние интернета | 2018_01_01](https://httparchive.org/reports/state-of-the-web?start=2018_01_01)
+ * 📖 [Вес страницы не имеет значения](https://www.speedshop.co/2015/11/05/page-weight-doesnt-matter.html)
+ * 📖 [Контрольный список производительности фронтальной части 2021 [PDF, Apple Pages, MS Word]](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
+ * 📖 [Проектирование для производительности: эстетика и скорость- By Lara Callender Hogan [eBook, Print]](http://designingforperformance.com/index.html)
+ * 📖 [Varvy - Глоссарий по веб-производительности](https://varvy.com/performance/)
+ * 📖 [fabkrum/web-performance-resources: Актуальная коллекция ценных ресурсов по веб-производству](https://github.com/fabkrum/web-performance-resources)
+ * 📖 [Checkbot - Лучшие методы повышения скорости работы веб-сайтов](https://www.checkbot.io/guide/speed/)
+ * 🛠 [Прогрессивный инструментарий - список инструментов сторонних разработчиков, которые можно использовать для повышения производительности страниц.](https://progressivetooling.com/)
 
 ---
 
@@ -111,19 +93,19 @@ List of the tools you can use to test or monitor your website or application:
 
 ![html]
 
-- [ ] **Minified HTML:** ![medium] The HTML code is minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Минифицированный HTML:** ![medium] HTML-код минифицируется, комментарии, пробелы и новые строки удаляются из рабочих файлов.
 
-    *Why:*
-    > Removing all unnecessary spaces, comments and attributes will reduce the size of your HTML and speed up your site's page load times and obviously lighten the download for your user.
+    *Почему:*
+    > Удаление всех ненужных пробелов, комментариев и атрибутов уменьшит размер HTML, ускорит загрузку страниц сайта и, очевидно, облегчит загрузку для пользователя.
 
-    *How:*
-    > Most of the frameworks have plugins to facilitate the minification of the webpages. You can use a bunch of NPM modules that can do the job for you automatically.
+    *Как:*
+    > Большинство фреймворков имеют плагины для минификации веб-страниц. Вы можете использовать множество модулей NPM, которые выполнят эту работу за вас автоматически.
 
-    * 🛠 [HTML minifier | Minify Code](http://minifycode.com/html-minifier/)
-    * 🛠 [Online HTML Compressor](http://refresh-sf.com)
-    * 📖 [Experimenting with HTML minifier — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
+    * 🛠 [HTML minifier | Минифицировать код](http://minifycode.com/html-minifier/)
+    * 🛠 [Онлайн-компрессор HTML](http://refresh-sf.com)
+    * 📖 [Эксперименты с минификатором HTML — Perfection Kills](http://perfectionkills.com/experimenting-with-html-minifier/#use_short_doctype)
    
-- [ ] **Place CSS tags always before JavaScript tags:** ![high] Ensure that your CSS is always loaded before having JavaScript code.
+- [ ] **Размещайте теги CSS всегда перед тегами JavaScript:** ![high] Убедитесь, что ваш CSS всегда загружается до кода JavaScript.
 
     ```html
     <!-- Not recommended -->
@@ -131,35 +113,35 @@ List of the tools you can use to test or monitor your website or application:
     <script src="foo.js"></script>
     <link rel="stylesheet" href="foo.css"/>
 
-    <!-- Recommended -->
+    <!-- Рекомендуем -->
     <link rel="stylesheet" href="foo.css"/>
     <script src="jquery.js"></script>
     <script src="foo.js"></script>
     ```
 
-    *Why:*
-    > Having your CSS tags before any JavaScript enables better, parallel download which speed up browser rendering time.
+    *Почему:*
+    > Наличие тегов CSS перед JavaScript обеспечивает лучшую, параллельную загрузку, которая ускоряет время рендеринга в браузере.
 
-    *How:*
-    > ⁃ Ensure that `<link>`  and `<style>` in your `<head>` are always before your `<script>`.
+    *Как:*
+    > ⁃ Убедитесь, что `<link>` и `<style>` в вашем `<head>` всегда находятся перед `<script>`.
 
-    * 📖 [Ordering your styles and scripts for pagespeed](https://varvy.com/pagespeed/style-script-order.html)
+    * 📖 [Упорядочивание стилей и скриптов для повышения скорости страниц](https://varvy.com/pagespeed/style-script-order.html)
 
-- [ ] **Minimize the number of iframes:** ![high] Use iframes only if you don't have any other technical possibility. Try to avoid iframes as much as you can.
+- [ ] **Минимизируйте количество iframes:** ![high] Используйте iframes только в том случае, если у вас нет другой технической возможности. Старайтесь избегать iframes как можно чаще.
 
-- [ ] **Pre-load optimization with prefetch, dns-prefetch and prerender:** ![low] Popular browsers can use directive on `<link>` tag and "rel" attribute with certain keywords to pre-load specific URLs.
+- [ ] **Оптимизация предварительной загрузки с помощью prefetch, dns-prefetch и prerender:** ![low] Популярные браузеры могут использовать директиву в теге `<link>` и атрибут "rel" с определенными ключевыми словами для предварительной загрузки определенных URL.
 
-    *Why:*
-    > Prefetching allows a browser to silently fetch the necessary resources needed to display content that a user might access in the near future. The browser is able to store these resources in its cache and speed up the way web pages load when they are using different domains for page resources. When a web page has finished loading and the idle time has passed, the browser begins downloading other resources. When a user go in a particular link (already prefetched), the content will be instantly served.
+    *Почему:*
+    > Предварительная выборка позволяет браузеру в тихом режиме получать необходимые ресурсы для отображения контента, к которому пользователь может обратиться в ближайшем будущем. Браузер может хранить эти ресурсы в своем кэше и ускорять загрузку веб-страниц, когда они используют разные домены для ресурсов страницы. Когда загрузка веб-страницы завершена и время простоя истекло, браузер начинает загрузку других ресурсов. Когда пользователь переходит по определенной ссылке (уже предварительно сохраненной), контент будет мгновенно предоставлен.
 
-    *How:*
-    > ⁃ Ensure that `<link>` is in your `<head>` section.
+    *Как:*
+    > ⁃ Убедитесь, что `<link>` находится в разделе `<head>`.
 
-    * 📖 [What Is Prefetching and Why Use It](https://www.keycdn.com/support/prefetching)
-    * 📖 [Prefetching, preloading, prebrowsing](https://css-tricks.com/prefetching-preloading-prebrowsing/)
-    * 📖 [What is Preload, Prefetch, and Preconnect](https://www.keycdn.com/blog/resource-hints)
+    * 📖 [Что такое префетчинг и зачем его использовать](https://www.keycdn.com/support/prefetching)
+    * 📖 [Предварительная выборка, предварительная загрузка, предварительный просмотр](https://css-tricks.com/prefetching-preloading-prebrowsing/)
+    * 📖 [Что такое предварительная загрузка, предварительная выборка и предварительное подключение](https://www.keycdn.com/blog/resource-hints)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#html)**
 
 ## CSS
 
@@ -167,10 +149,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
 
-    *Why:*
+    *Почему:*
     > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
 
-    *How:*
+    *Как:*
     > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
 
     * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
@@ -187,14 +169,14 @@ List of the tools you can use to test or monitor your website or application:
     <link rel="stylesheet" href="foo.css"/>
     <link rel="stylesheet" href="bar.css"/>
 
-    <!-- Recommended -->
+    <!-- Рекомендуем -->
     <link rel="stylesheet" href="foobar.css"/>
     ```
 
-    *Why:*
+    *Почему:*
     > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
 
-    *How:*
+    *Как:*
     > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
     ⁃ Ensure, of course, that concatenation does not break your project.
 
@@ -208,10 +190,10 @@ List of the tools you can use to test or monitor your website or application:
     <noscript><link rel="stylesheet" href="global.min.css"></noscript>
     ```
 
-    *Why:*
+    *Почему:*
     > CSS files can block the page load and delay the rendering of your page. Using `preload` can actually load the CSS files before the browser starts showing the content of the page.
 
-    *How:*
+    *Как:*
     > ⁃ You need to add the `rel` attribute with the `preload` value and add `as="style"` on the `<link>` element.
 
     * 🛠 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
@@ -221,10 +203,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
 
-    *Why:*
+    *Почему:*
     > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
 
-    *How:*
+    *Как:*
     > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
@@ -234,10 +216,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **CSS Critical:** ![high] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
 
-    *Why:*
+    *Почему:*
     > Inlining critical CSS help to speed up the rendering of the web pages reducing the number of requests to the server.
 
-    *How:*
+    *Как:*
     > Generate the CSS critical with online tools or using a plugin like the one that Addy Osmani developed.
 
     * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
@@ -249,20 +231,20 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
 
-    *Why:*
+    *Почему:*
     > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
 
-    *How:*
+    *Как:*
     > Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
 
     * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
 
 - [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
 
-    *Why:*
+    *Почему:*
     > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
 
-    *How:*
+    *Как:*
     > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
 
     * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
@@ -280,10 +262,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Webfont formats:** ![medium] You are using WOFF2 on your web project or application.
 
-    *Why:*
+    *Почему:*
     > According to Google, the WOFF 2.0 Web Font compression format offers 30% average gain over WOFF 1.0. It's then good to use WOFF 2.0, WOFF 1.0 as a fallback and TTF.
 
-    *How:*
+    *Как:*
     > Check before buying your new font that the provider gives you the WOFF2 format. If you are using a free font, you can always use Font Squirrel to generate all the formats you need.
 
     * 📖 [WOFF 2.0 – Learn more about the next generation Web Font Format and convert TTF to WOFF2](https://gist.github.com/sergejmueller/cf6b4f2133bcb3e2f64a)
@@ -298,10 +280,10 @@ List of the tools you can use to test or monitor your website or application:
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     ```
 
-    *Why:*
+    *Почему:*
     > When you arrived on a website, your device needs to find out where your site lives and which server it needs to connect with. Your browser had to contact a DNS server and wait for the lookup complete before fetching the resource (fonts, CSS files...). Prefetches and preconnects allow the browser to lookup the DNS information and start establishing a TCP connection to the server hosting the font file. This provides a performance boost because by the time the browser gets around to parsing the css file with the font information and discovering it needs to request a font file from the server, it will already have pre-resolved the DNS information and have an open connection to the server ready in its connection pool.
 
-    *How:*
+    *Как:*
     > ⁃ Before prefetching your webfonts, use webpagetest to evaluate your website <br>
     ⁃ Look for teal colored DNS lookups and note the host that are being requested <br>
     ⁃ Prefetch your webfonts in your `<head>` and add eventually these hostnames that you should prefetch too
@@ -331,10 +313,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **Images optimization:** ![high] Your images are optimized, compressed without direct impact to the end user.
 
-    *Why:*
+    *Почему:*
     > Optimized images load faster in your browser and consume less data.
 
-    *How:*
+    *Как:*
     > ⁃ Try using CSS3 effects when it's possible (instead of a small image) <br>
     ⁃ When it's possible, use fonts instead of text encoded in your images <br>
     ⁃ Use SVG <br>
@@ -352,10 +334,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **Images format:** ![high] Choose your image format appropriately.
 
-    *Why:*
+    *Почему:*
     > To ensure that your images don't slow your website, choose the format that will correspond to your image. If it's a photo, JPEG is most of the time more appropriate than PNG or GIF. But don't forget to look a the nex-gen formats which can reduce the size of your files. Each image format has pros and cons, it's important to know these to make the best choice possible.
 
-    *How:*
+    *Как:*
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify which images can eventually use **next-gen formats** (like JPEG 2000m JPEG XR or WebP) <br>
     ⁃ Compare different formats, sometimes using PNG8 is better than PNG16, sometimes it's not.
 
@@ -366,12 +348,12 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Use vector image vs raster/bitmap:** ![medium] Prefer using vector image rather than bitmap images (when possible).
 
-    *Why:*
+    *Почему:*
     > Vector images (SVG) tend to be smaller than images and SVG's are responsive and scale perfectly. These images can be animated and modified by CSS.
 
 * [ ] **Images dimensions:** ![medium] Set `width` and `height` attributes on `<img>` if the final rendered image size is known.
 
-    *Why:*
+    *Почему:*
     > If height and width are set, the space required for the image is reserved when the page is loaded. However, without these attributes, the browser does not know the size of the image, and cannot reserve the appropriate space to it. The effect will be that the page layout will change during loading (while the images load).
 
 * [ ] **Avoid using Base64 images:** ![medium] You could eventually convert tiny images to base64 but it's actually not the best practice.
@@ -383,10 +365,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **Lazy loading:** ![medium] Offscreen images are loaded lazily (A noscript fallback is always provided).
 
-    *Why:*
+    *Почему:*
     > It will improve the response time of the current page and then avoid loading unnecessary images that the user may not need.
 
-    *How:*
+    *Как:*
     > ⁃ Use [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to identify how many **images are offscreen**. <br>
     ⁃ Use a JavaScript plugin like the following to lazyload your images. Make sure you target offscreen images only. <br>
     ⁃ Also make sure to lazyload alternative images shown at mouseover or upon other user actions.
@@ -399,10 +381,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **Responsive images:** ![medium] Ensure to serve images that are close to your display size.
 
-    *Why:*
+    *Почему:*
     > Small devices don't need images bigger than their viewport. It's recommended to have multiple versions of one image on different sizes.
 
-    *How:*
+    *Как:*
     > ⁃ Create different image sizes for the devices you want to target. <br>
     ⁃ Use `srcset` and `picture` to deliver multiple variants of each image.
 
@@ -416,10 +398,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **JS Minification:** ![high] All JavaScript files are minified, comments, white spaces and new lines are removed from production files *(still valid if using HTTP/2)*.
 
-    *Why:*
+    *Почему:*
     > Removing all unnecessary spaces, comments and break will reduce the size of your JavaScript files and speed up your site's page load times and obviously lighten the download for your user.
 
-    *How:*
+    *Как:*
     > ⁃ Use the tools suggested below to minify your files automatically before or during your build or your deployment.
 
     * 🛠 [uglify-js - npm](https://www.npmjs.com/package/uglify-js)
@@ -428,10 +410,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **No JavaScript inside:** ![medium] *(Only valid for website)* Avoid having multiple JavaScript codes embedded in the middle of your body. Regroup your JavaScript code inside external files or eventually in the `<head>` or at the end of your page (before `</body>`).
 
-    *Why:*
+    *Почему:*
     > Placing JavaScript embedded code directly in your `<body>` can slow down your page because it loads while the DOM is being built. The best option is to use external files with `async` or `defer` to avoid blocking the DOM. Another option is to place some scripts inside your `<head>`. Most of the time analytics code or small script that need to load before the DOM gets to main processing.
 
-    *How:*
+    *Как:*
     > Ensure that all your files are loaded using `async` or `defer` and decide wisely the code that you will need to inject in your `<head>`.
 
      * 📖 [11 Tips to Optimize JavaScript and Improve Website Loading Speeds](https://www.upwork.com/hiring/development/11-tips-to-optimize-javascript-and-improve-website-loading-speeds/)
@@ -446,10 +428,10 @@ List of the tools you can use to test or monitor your website or application:
     <script async src="foo.js"></script>
     ```
 
-    *Why:*
+    *Почему:*
     > JavaScript blocks the normal parsing of the HTML document, so when the parser reaches a `<script>` tag (particularly is inside the `<head>`), it stops to fetch and run it. Adding `async` or `defer` are highly recommended if your scripts are placed in the top of your page but less valuable if just before your `</body>` tag. But it's a good practice to always use these attributes to avoid any performance issue.
 
-    *How:*
+    *Как:*
     > ⁃ Add `async` (if the script don't rely on other scripts) or `defer` (if the script relies upon or relied upon by an async script) as an attribute to your script tag. <br>
     ⁃ If you have small scripts, maybe use inline script place above async scripts.
 
@@ -458,10 +440,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **Optimized and updated JS libraries:** ![medium] All JavaScript libraries used in your project are necessary (prefer Vanilla JavaScript for simple functionalities), updated to their latest version and don't overwhelm your JavaScript with unnecessary methods.
 
-    *Why:*
+    *Почему:*
     > Most of the time, new versions come with optimization and security fix. You should use the most optimized code to speed up your project and ensure that you'll not slow down your website or app without outdated plugin.
 
-    *How:*
+    *Как:*
     > If your project use NPM packages, [npm-check](https://www.npmjs.com/package/npm-check) is a pretty interesting library to upgrade / update your libraries.
     > [Greenkeeper](https://greenkeeper.io/) can automatically look for your dependencies and suggest an update every time a new version is out.
 
@@ -470,10 +452,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Check dependencies size limit:** ![low] Ensure to use wisely external libraries, most of the time, you can use a lighter library for a same functionality.
 
-    *Why:*
+    *Почему:*
     > You may be tempted to use one of the 745 000 packages you can find on [npm](https://www.npmjs.com/), but you need to choose the best package for your needs. For example, MomentJS is an awesome library but with a lot of methods you may never use, that's why Day.js was created. It's just 2kB vs 16.4kB gz for Moment.
 
-    *How:*
+    *Как:*
     > Always compare and choose the best and lighter library for your needs. You can also use tools like [npm trends](http://www.npmtrends.com/) to compare NPM package downloads counts or [Bundlephobia](https://bundlephobia.com/) to know the size of your dependencies.
 
     * 🛠 [ai/size-limit: Prevent JS libraries bloat. If you accidentally add a massive dependency, Size Limit will throw an error.](https://github.com/ai/size-limit)
@@ -483,10 +465,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **JavaScript Profiling:** ![medium] Check for performance problems in your JavaScript files (and CSS too).
 
-    *Why:*
+    *Почему:*
     > JavaScript complexity can slow down runtime performance. Identifying these possible issues are essential to offer the smoothest user experience.
 
-    *How:*
+    *Как:*
     > Use the Timeline tool in the Chrome Developer Tool to evaluate scripts events and found the one that may take too much time.
 
      * 📖 [Speed Up JavaScript Execution  |  Tools for Web Developers  |  Google Developers](https://developers.google.com/web/tools/chrome-devtools/rendering-tools/js-execution)
@@ -510,7 +492,7 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Your website is using HTTPS:** ![high]
 
-    *Why:*
+    *Почему:*
     > HTTPS is not only for ecommerce websites, but for all websites that are exchanging data. Data shared by a user or data shared to an external entity. Modern browsers today limit functionalities for sites that are not secure. For example: geolocation, push notifications and service workers don't work if your instance is not using HTTPS. And today is much more easy to setup a project with an SSL certificate than it was before (and for free, thanks to [Let's Encrypt](https://letsencrypt.org/)).
 
  * 📖 [Why Use HTTPS? | Cloudflare](https://www.cloudflare.com/learning/security/why-use-https/)
@@ -521,10 +503,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Page weight < 1500 KB (ideally < 500 KB):** ![high] Reduce the size of your page + resources as much as you can.
 
-    *Why:*
+    *Почему:*
     > Ideally you should try to target < 500 KB but the state of web shows that the median of Kilobytes is around 1500 KB (even on mobile). Depending on your target users, network connection, devices, it's important to reduce as much as possible your total Kilobytes to have the best user experience possible.
 
-    *How:*
+    *Как:*
     > ⁃ All the rules inside the Front-End Performance Checklist will help you to reduce as much as possible your resources and your code.
 
     * 📖 [Page Weight](https://httparchive.org/reports/page-weight#bytesTotal)
@@ -533,10 +515,10 @@ List of the tools you can use to test or monitor your website or application:
 
 - [ ] **Page load times < 3 seconds:** ![high] Reduce as much as possible your page load times to quickly deliver your content to your users.
 
-    *Why:*
+    *Почему:*
     > Faster your website or app is, less you have probability of bounce increases, in other terms you have less chances to lose your user or future client. Enough researches on the subject prove that point.
 
-    *How:*
+    *Как:*
     > Use online tools like [Page Speed Insight](https://developers.google.com/speed/pagespeed/insights/) or [WebPageTest](https://www.webpagetest.org/) to analyze what could be slowing you down and use the Front-End Performance Checklist to improve your load times.
 
     * 🛠 [Compare your mobile site speed](https://www.thinkwithgoogle.com/feature/mobile/)
@@ -552,10 +534,10 @@ List of the tools you can use to test or monitor your website or application:
 
 * [ ] **Cookie size:** ![medium] If you are using cookies, be sure each cookie doesn't exceed 4096 bytes and your domain name doesn't have more than 20 cookies.
 
-    *Why:*
+    *Почему:*
     > Cookies are exchanged in the HTTP headers between web servers and browsers. It's important to keep the size of cookies as low as possible to minimize the impact on the user's response time.
 
-    *How:*
+    *Как:*
     > Eliminate unnecessary cookies.
 
     * 📖 [Cookie specification: RFC 6265](https://tools.ietf.org/html/rfc6265)
