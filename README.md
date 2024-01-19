@@ -570,20 +570,20 @@
 **[⬆ back to top](#сервер)**
 
 ---
-## Performances and JS Frameworks
+## Перформансы и JS-фреймворки
 
 ### Angular
- * 📖 [Angular Performance Checklist](https://github.com/mgechev/angular-performance-checklist)
+ * 📖 [Контрольный список производительности Angular](https://github.com/mgechev/angular-performance-checklist)
 
 ### React
 
- * 📖 [Optimizing Performance - React](https://reactjs.org/docs/optimizing-performance.html)
- * 📖 [React image manipulation | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
- * 📖 [Debugging React performance with React 16 and Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
-  * 📖 [Build Performant - React](https://web.dev/react/)
+ * 📖 [Оптимизация производительности - React](https://reactjs.org/docs/optimizing-performance.html)
+ * 📖 [Работа с изображениями в React | Cloudinary](https://cloudinary.com/documentation/react_image_manipulation)
+ * 📖 [Отладка производительности React с помощью React 16 и Chrome Devtools.](https://building.calibreapp.com/debugging-react-performance-with-react-16-and-chrome-devtools-c90698a522ad)
+ * 📖 [Build Performant - React](https://web.dev/react/)
 
 ### Vue
- * 📖 [Vue - Useful Links|Style Guide and Performance](https://learn-vuejs.github.io/vue-patterns/useful-links/)
+ * 📖 [Vue - Полезные ссылки|Руководство по стилю и производительность ](https://learn-vuejs.github.io/vue-patterns/useful-links/)
 
 ## Performances and CMS
 
@@ -591,22 +591,22 @@
 
 * 🛠 [Test Your Website Speed | WordPress Hosting by @WPEngine](https://wpengine.com/speed-tool/)
 
-#### Articles
+#### Статьи
 
- * 📖 [19 Tips to Speed Up WordPress Performance (Updated)](https://www.wpbeginner.com/wordpress-performance-speed/)
- * 📖 [Speed Up Your WordPress - How to Save Images Optimized for Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
+ * 📖 [19 советов по ускорению работы WordPress (обновлено)](https://www.wpbeginner.com/wordpress-performance-speed/)
+ * 📖 [Ускорение WordPress - как сохранить изображения, оптимизированные для Web](https://www.wpbeginner.com/beginners-guide/speed-wordpress-save-images-optimized-web/)
 
-#### Plugins recommended
+#### Рекомендуемые плагины
 
-* 🛠 [Caching Plugin for WordPress - Speed up your website with WP Rocket](https://wp-rocket.me/)
+* 🛠 [Плагин кэширования для WordPress - ускорьте свой сайт с помощью WP Rocket](https://wp-rocket.me/)
 * 🛠 [WP-Sweep | WordPress.org](https://wordpress.org/plugins/wp-sweep/)
 * 🛠 [Imagify Image Optimizer | WordPress.org](https://wordpress.org/plugins/imagify/)
 
 ---
 
-## Translations
+## Переводы
 
-The Front-End Performance Checklist wants to also be available in other languages! Don't hesitate to submit your contribution!
+Контрольный список производительности Front-End хочет быть доступен и на других языках! Не стесняйтесь внести свой вклад!
 
 * 🇵🇹 Portuguese: [fernandofawkes/Front-End-Performance-Checklist](https://github.com/fernandofawkes/Front-End-Performance-Checklist)
 * 🇨🇳 Chinese: [JohnsenZhou/Front-End-Performance-Checklist](https://github.com/JohnsenZhou/Front-End-Performance-Checklist)
@@ -620,40 +620,40 @@ The Front-End Performance Checklist wants to also be available in other language
 * 🇮🇷 Persian: [ms-fadaei/Front-End-Performance-Checklist](https://github.com/ms-fadaei/Front-End-Performance-Checklist)
 * 🇮🇹 Italian: [marbio/Front-End-Performance-Checklist](https://github.com/marbio/Front-End-Performance-Checklist)
 
-## Contributing
+## Вклад
 
-**Open an issue or a pull request to suggest changes or additions.**
+**Открыть проблему или запрос на вытягивание, чтобы предложить изменения или дополнения.**.
 
-## Support
+## Поддержка
 
-If you have any question or suggestion, don't hesitate to use Discord or Twitter:
+Если у вас есть вопросы или предложения, не стесняйтесь использовать Discord или Twitter:
 
 * [Chat on Discord](https://discord.gg/btHQRkm)
 * [Facebook](https://www.facebook.com/frontendchecklist/)
 * [Twitter](https://twitter.com/thedaviddias)
 
-## Author
+## Автор
 
 **Build with ❤️ by [David Dias](https://github.com/thedaviddias)
 
-## Contributors
+## Вкладчики
 
-This project exists thanks to all the people who contribute. [[Contribute]](.github/CONTRIBUTING.md).
+Этот проект существует благодаря всем людям, которые вносят свой вклад. [[Вклад]](.github/CONTRIBUTING.md).
 <a href="https://github.com/thedaviddias/Front-End-Performance-Checklist/graphs/contributors">
     <img src="https://opencollective.com/front-end-checklist/contributors.svg?width=890" />
 </a>
 
 
-## Backers
+## Бэкеры
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/front-end-checklist#backer)]
+Спасибо всем нашим сторонникам! 🙏 [[Become a backer](https://opencollective.com/front-end-checklist#backer)]
 
 <a href="https://opencollective.com/front-end-checklist#backers" target="_blank"><img src="https://opencollective.com/front-end-checklist/backers.svg?width=890"></a>
 
 
-## Sponsors
+## Спонсоры
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/front-end-checklist#sponsor)]
+Поддержите этот проект, став его спонсором. Ваш логотип будет размещен здесь со ссылкой на ваш сайт. [[Become a sponsor](https://opencollective.com/front-end-checklist#sponsor)]
 
 <a href="https://opencollective.com/front-end-checklist/sponsor/0/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/1/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/1/avatar.svg"></a>
@@ -666,13 +666,13 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/front-end-checklist/sponsor/8/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/8/avatar.svg"></a>
 <a href="https://opencollective.com/front-end-checklist/sponsor/9/website" target="_blank"><img src="https://opencollective.com/front-end-checklist/sponsor/9/avatar.svg"></a>
 
-## License
+## Лицензия
 
 [MIT](LICENSE)
 
-All icons are provided by [Icons8](https://icons8.com/)
+Все иконки предоставлены [Icons8](https://icons8.com/)
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#введение)**
 
 [logo]: images/logo-front-end-performance-checklist.jpg
 [html]: images/html.png
