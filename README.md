@@ -108,7 +108,7 @@
 - [ ] **Размещайте теги CSS всегда перед тегами JavaScript:** ![high] Убедитесь, что ваш CSS всегда загружается до кода JavaScript.
 
     ```html
-    <!-- Not recommended -->
+    <!-- Не рекомендуется -->
     <script src="jquery.js"></script>
     <script src="foo.js"></script>
     <link rel="stylesheet" href="foo.css"/>
@@ -147,25 +147,25 @@
 
 ![css]
 
-- [ ] **Minification:** ![high] All CSS files are minified, comments, white spaces and new lines are removed from production files.
+- [ ] **Минификация:** ![high] Все CSS-файлы минифицированы, комментарии, пробелы и новые строки удалены из рабочих файлов.
 
     *Почему:*
-    > When CSS files are minified, the content is loaded faster and less data is sent to the client. It's important to always minify CSS files in production. It is beneficial for the user as it is for any business who wants to lower bandwidth costs and lower resource usage.
+    > Когда CSS-файлы минифицированы, содержимое загружается быстрее, а клиенту отправляется меньше данных. Важно всегда минифицировать CSS-файлы в производстве. Это полезно как для пользователя, так и для любого предприятия, которое хочет снизить затраты на пропускную способность и уменьшить использование ресурсов.
 
     *Как:*
-    > ⁃ Use tools to minify your files automatically before or during your build or your deployment.
+    > ⁃ Используйте инструменты для автоматического минимизации файлов до или во время сборки или развертывания.
 
-    * 🛠 [cssnano: A modular minifier based on the PostCSS ecosystem. - cssnano](https://cssnano.co/)
+    * 🛠 [cssnano: Модульный минификатор, основанный на экосистеме PostCSS. - cssnano](https://cssnano.co/)
     * 🛠 [CSS Minfier](https://goonlinetools.com/css-minifier/)
     * 🛠 [@neutrinojs/style-minify - npm](https://www.npmjs.com/package/@neutrinojs/style-minify)
     * 🛠 [Online CSS Compressor](http://refresh-sf.com)
 
 
-- [ ] **Concatenation:** ![medium] CSS files are concatenated in a single file *(Not always valid for HTTP/2)*.
+- [ ] **Конкатенация:** ![medium] Файлы CSS объединяются в один файл *(Не всегда подходит для HTTP/2)*.
 
     ```html
 
-    <!-- Not recommended -->
+    <!-- Не рекомендуется -->
     <link rel="stylesheet" href="foo.css"/>
     <link rel="stylesheet" href="bar.css"/>
 
@@ -174,16 +174,16 @@
     ```
 
     *Почему:*
-    > If you are still using HTTP/1, you may need to still concatenate your files, it's less true if your server use HTTP/2 (tests should be made).
+    > Если вы все еще используете HTTP/1, вам может потребоваться конкатенация файлов, это менее верно, если ваш сервер использует HTTP/2 (необходимо провести тестирование).
 
     *Как:*
-    > ⁃ Use online tool or any plugin before or during your build or your deployment to concatenate your files. <br>
-    ⁃ Ensure, of course, that concatenation does not break your project.
+    > ⁃ Используйте онлайн-инструмент или любой плагин до или во время сборки или развертывания для конкатенации файлов. <br>
+    ⁃ Конечно, убедитесь, что конкатенация не разрушит ваш проект.
 
-    * 📖 [HTTP: Optimizing Application Delivery - High Performance Browser Networking (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
-    * 📖 [Performance Best Practices in the HTTP/2 Era](https://deliciousbrains.com/performance-best-practices-http2/)
+    * 📖 [HTTP: Оптимизация доставки приложений - высокопроизводительные браузерные сети (O'Reilly)](https://hpbn.co/optimizing-application-delivery/#optimizing-for-http2)
+    * 📖 [Лучшие практики производительности в эпоху HTTP/2](https://deliciousbrains.com/performance-best-practices-http2/)
 
-- [ ] **Non-blocking:** ![high] CSS files need to be non-blocking to prevent the DOM from taking time to load.
+- [ ] **Неблокируемый:** ![high] Файлы CSS должны быть неблокируемыми, чтобы DOM не тратил время на загрузку.
 
     ```html
     <link rel="preload" href="global.min.css" as="style" onload="this.rel='stylesheet'">
@@ -191,68 +191,67 @@
     ```
 
     *Почему:*
-    > CSS files can block the page load and delay the rendering of your page. Using `preload` can actually load the CSS files before the browser starts showing the content of the page.
+    > Файлы CSS могут блокировать загрузку страницы и задерживать ее отображение. Использование `preload` может фактически загрузить CSS-файлы до того, как браузер начнет отображать содержимое страницы.
 
     *Как:*
-    > ⁃ You need to add the `rel` attribute with the `preload` value and add `as="style"` on the `<link>` element.
+    > ⁃ Вам нужно добавить атрибут `rel` со значением `preload` и добавить `as="style"` на элемент `<link>`..
 
-    * 🛠 [loadCSS by filament group](https://github.com/filamentgroup/loadCSS)
-    * 📖 [Example of preload CSS using loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
-    * 📖 [Preloading content with rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
-    * 📖 [Preload: What Is It Good For? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
+    * 🛠 [loadCSS от filament group](https://github.com/filamentgroup/loadCSS)
+    * 📖 [Пример предварительной загрузки CSS с помощью loadCSS](https://gist.github.com/thedaviddias/c24763b82b9991e53928e66a0bafc9bf)
+    * 📖 [Предварительная загрузка содержимого с помощью rel="preload"](https://developer.mozilla.org/en-US/docs/Web/HTML/Preloading_content)
+    * 📖 [Предварительная нагрузка: Для чего она нужна? — Smashing Magazine](https://www.smashingmagazine.com/2016/02/preload-what-is-it-good-for/)
 
-- [ ] **Unused CSS:** ![medium] Remove unused CSS selectors.
+- [ ] **Неиспользуемый CSS:** ![medium] Удаление неиспользуемых селекторов CSS.
 
     *Почему:*
-    > Removing unused CSS selectors can reduce the size of your files and then speed up the load of your assets.
+    > Удаление неиспользуемых CSS-селекторов позволяет уменьшить размер файлов и ускорить загрузку активов..
 
     *Как:*
-    > ⁃ ⚠️ Always check if the framework CSS you want to use don't already has a reset / normalize code included. Sometimes you may not need everything that is inside your reset / normalize file.
+    > ⁃ ⚠️ Всегда проверяйте, нет ли в CSS фреймворка, который вы хотите использовать, уже включенного кода сброса / нормализации. Иногда вам может не понадобиться все, что находится в файле reset / normalize.
 
     * 🛠 [UnCSS Online](https://uncss-online.com/)
     * 🛠 [PurifyCSS](https://github.com/purifycss/purifycss)
     * 🛠 [PurgeCSS](https://github.com/FullHuman/purgecss)
     * 🛠 [Chrome DevTools Coverage](https://developers.google.com/web/updates/2017/04/devtools-release-notes#coverage)
 
-* [ ] **CSS Critical:** ![high] The CSS critical (or "above the fold") collects all the CSS used to render the visible portion of the page. It is embedded before your principal CSS call and between `<style></style>` in a single line (minified if possible).
+* [ ] **CSS Critical:** ![high] Критический CSS собирает все CSS, используемые для отображения видимой части страницы. Он встраивается перед основным вызовом CSS и между `<style></style>` в одну строку (по возможности минифицированную).
 
     *Почему:*
-    > Inlining critical CSS help to speed up the rendering of the web pages reducing the number of requests to the server.
+    > Встраивание критических CSS помогает ускорить рендеринг веб-страниц, уменьшая количество запросов к серверу.
 
     *Как:*
-    > Generate the CSS critical with online tools or using a plugin like the one that Addy Osmani developed.
+    > Создайте критический CSS с помощью онлайн-инструментов или используя плагин, подобный тому, который разработал Адди Османи..
 
-    * 📖 [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
+    * 📖 [Понимание критических CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/)
     * 🛠 [Critical by Addy Osmani on GitHub](https://github.com/addyosmani/critical) automates this.
-    * 📖 [Inlining critical CSS for better web performance | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
-     * 🛠 [Critical Path CSS Generator - Prioritize above the fold content :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
-     * 📖 [Reduce the size of the above-the-fold content
-](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
+    * 📖 [Инкрустация критических CSS для повышения производительности сайта | Go Make Things](https://gomakethings.com/inlining-critical-css-for-better-web-performance/)
+    * 🛠 [Генератор CSS Critical Path - приоритет контента :: SiteLocity](https://www.sitelocity.com/critical-path-css-generator)
+    * 📖 [Уменьшите размер контента, расположенного выше страницы.](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)
 
-- [ ] **Embedded or inline CSS:** ![high] Avoid using embed or inline CSS inside your `<body>` *(Not valid for HTTP/2)*
-
-    *Почему:*
-    > One of the first reason it's because it's a good practice to **separate content from design**. It also helps you have a more maintainable code and keep your site accessible. But regarding performance, it's simply because it decreases the file-size of your HTML pages and the load time.
-
-    *Как:*
-    > Always use external stylesheets or embed CSS in your `<head>` (and follow the others CSS performance rules)
-
-    * 📖 [Observe CSS Best Practices: Avoid CSS Inline Styles](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
-
-- [ ] **Analyse stylesheets complexity:** ![high] Analyzing your stylesheets can help you to flag issues, redundancies and duplicate CSS selectors.
+- [ ] **Встроенный или инлайн CSS:** ![high] Избегайте использования встроенного или инлайн CSS внутри вашего `<body>` *(Недействительно для HTTP/2).*
 
     *Почему:*
-    > Sometimes you may have redundancies or validation errors in your CSS, analysing your CSS files and removed these complexities can help you to speed up your CSS files (because your browser will read them faster)
+    > Одна из первых причин заключается в том, что это хорошая практика - **отделять контент от дизайна**. Это также поможет вам иметь более удобный код и сохранить доступность вашего сайта. Что касается производительности, то это просто потому, что это уменьшает размер файла HTML-страниц и время загрузки..
 
     *Как:*
-    > Your CSS should be organized, using a CSS preprocessor can help you with that. Some online tools listed below can also help you analysing and correct your code.
+    > Всегда используйте внешние таблицы стилей или вставляйте CSS в `<head>` (и следуйте другим правилам работы с CSS).
 
-    * 🛠 [TestMyCSS | Optimize and Check CSS Performance](http://www.testmycss.com/)
+    * 📖 [Соблюдайте лучшие практики CSS: Избегайте инлайн-стилей CSS](https://www.lifewire.com/avoid-inline-styles-for-css-3466846)
+
+- [ ] **Анализ сложности таблиц стилей:** ![high] Анализ таблиц стилей поможет вам выявить проблемы, излишества и дублирование CSS-селекторов..
+
+    *Почему:*
+    > Иногда в вашем CSS могут быть излишества или ошибки валидации. Анализ ваших CSS-файлов и устранение этих сложностей может помочь вам ускорить работу ваших CSS-файлов (потому что браузер будет читать их быстрее).
+
+    *Как:*
+    > Ваш CSS должен быть организован, в этом вам поможет использование препроцессора CSS. Некоторые онлайн-инструменты, перечисленные ниже, также могут помочь вам проанализировать и исправить ваш код.
+
+    * 🛠 [TestMyCSS | Оптимизация и проверка производительности CSS](http://www.testmycss.com/)
     * 🛠 [CSS Stats](https://cssstats.com/)
-    * 🛠 [macbre/analyze-css: CSS selectors complexity and performance analyzer](https://github.com/macbre/analyze-css)
-    * 🛠 [Project Wallace](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
+    * 🛠 [macbre/analyze-css: Анализатор сложности и производительности CSS-селекторов](https://github.com/macbre/analyze-css)
+    * 🛠 [Проект "Уоллес"](https://www.projectwallace.com/) is like CSS Stats but stores stats over time so you can track your changes
 
-**[⬆ back to top](#table-of-contents)**
+**[⬆ back to top](#css)**
 
 ## Fonts
 
